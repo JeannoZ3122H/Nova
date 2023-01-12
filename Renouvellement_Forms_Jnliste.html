@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Formulaire d'Attribution</title>
+  <title>Formulaire de Renouvellement Journaliste</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -108,115 +108,113 @@
         </div>
         <div class="col-lg-6 col-12 mb-lg-0 mb-3">
           <div class="Forms_1 col-12">
-            <h1 class="h4">Informations Personnelles</h1>
-            <div class="mb-3 mt-3">
-              <label for="Nom">Nom</label>
-              <input type="text" class="form-control from-control-lg" id="Nom" name="Nom" placeholder="Entrez votre nom">
-            </div>
-            <div class="mb-3">
-              <label for="Premons">Prenoms</label>
-              <input type="text" class="form-control from-control-lg" id="Premons" name="Prenom" placeholder="Entrez votre Prenoms">
-            </div>
-            <div class="mb-3">
-              <label for="Pseudonyme">Pseudonyme</label>
-              <input type="text" class="form-control from-control-lg" id="Pseudonyme" name="Pseudonyme" placeholder="Entrez votre Pseudonyme">
-            </div>
-            <div class="mb-3">
-              <label for="date">Date de Naissance</label>
-              <input type="date" class="form-control from-control-lg" id="date" name="Date" placeholder="Entrez votre date de naissance">
-            </div>
-            <div class="mb-3">
-              <label for="Nationnalité">Nationalité</label>
-              <input type="text" class="form-control from-control-lg" id="Nationnalité" name="Nationnalité"  placeholder="Entrez votre nationalité">
-            </div>
-            <div class="mb-3">
-              <label for="Adresse">Adresse</label>
-              <input type="text" class="form-control from-control-lg" id="Address" name="Adresse" placeholder="Entrez votre Adresse">
-            </div>
-            <div class="mb-3">
-              <label for="Nom">E-mail</label>
-              <input type="email" class="form-control from-control-lg" id="E-mail" name="E-mail" placeholder="Entrez votre E-mail">
-            </div>
-            <div class="mb-3">
-              <label for="Telephone">Telephone</label>
-              <input type="tel" class="form-control from-control-lg" id="Telephone" name="Telephone" placeholder="Entrez votre Telephone">
-            </div>
-            <div class="mb-2">
-              <!--Avatar-->
-              <div>
-                <div class="d-flex justify-content-center mb-4">
-                    <img src="./assets/img/Ajoute photo.png"
-                    class="rounded-circle img-fluid" alt="example placeholder" style="width: 74px;" />
-                </div>
-                <div class="d-flex justify-content-center flex-wrap">
-                    <label for="Photo">AJOUTER UNE PHOTO</label>
-                    <input type="file" class="form-control" id="Photo" name="Photo">
-                </div>
+              <h1 class="h4">Informations Personnelles</h1>
+              <div class="mb-3 mt-3">
+                  <label for="Nom">Nom</label>
+                  <input type="text" class="form-control from-control-lg" id="Nom" name="Nom" placeholder="Entrez votre nom">
               </div>
-            </div>
+              <div class="mb-3">
+                  <label for="Premons">Prénoms</label>
+                  <input type="text" class="form-control from-control-lg" id="Premons" name="Prenom" placeholder="Entrez votre Prénoms">
+              </div>
+              <div class="mb-3">
+                  <label for="Pseudonyme">Pseudonyme</label>
+                  <input type="text" class="form-control from-control-lg" id="Pseudonyme" name="Pseudonyme" placeholder="Entrez votre Pseudonyme">
+              </div>
+              <div class="mb-3">
+                  <label for="date_lieu">Date et lieu de naissance</label>
+                  <input type="text" class="form-control from-control-lg" id="date_lieu" name="date_lieu" placeholder="Entrez votre date et lieu de naissance">
+              </div>
+              <div class="mb-3">
+                  <label for="Nationnalité">Nationalité</label>
+                  <input type="text" class="form-control from-control-lg" id="Nationnalité" name="Nationnalité" placeholder="Entrez votre nationalité">
+              </div>
+              <div class="mb-3">
+                  <label for="Adresse">Adresse</label>
+                  <input type="text" class="form-control from-control-lg" id="Address" name="Adresse" placeholder="Entrez votre Adresse">
+              </div>
+              <div class="mb-3">
+                  <label for="Nom">Adresse e-mail personnelle</label>
+                  <input type="email" class="form-control from-control-lg" id="E-mail" name="E-mail" placeholder="Entrez votre E-mail">
+              </div>
+              <div class="mb-3">
+                  <label for="Telephone">Téléphone</label>
+                  <input type="tel" class="form-control from-control-lg" id="Telephone" name="Telephone" placeholder="Entrez votre Téléphone">
+              </div>
+              <div class="mb-2"><!--Avatar-->
+                  <div>
+                      <div class="d-flex justify-content-center mb-4">
+                          <img src="./assets/img/Ajoute photo.png" class="rounded-circle img-fluid" alt="example placeholder" style="width: 74px;" />
+                      </div>
+                      <div class="d-flex justify-content-center flex-wrap">
+                          <label for="Photo">AJOUTER UNE PHOTO</label>
+                          <input type="file" class="form-control" id="Photo" name="Photo">
+                      </div>
+                  </div>
+              </div>
           </div>
         </div>
         <div class="col-lg-6 col-12">
           <div class="Forms_2 col-12">
-            <h1 class="h4">Renseignements Professionnels</h1>
-            <div class="mb-3 mt-3">
-              <label for="Societe">Société éditrice</label>
-              <input type="text" class="form-control from-control-lg" id="Societe" name="Société_éditrice" placeholder="Entrez la Société éditrice">
-            </div>
-            <div class="mb-3">
-              <label for="Publication">Publication (papier ou numerique)</label>
-              <select class="form-select" aria-label="Default select example" id="Publication">
-                <option selected>Choisissez le type de Publication</option>
-                <option value="1">PAPIER</option>
-                <option value="2">NUMERIOUE</option>
-              </select>
-            </div>
-            <div class="mb-3">
-              <label for="Agence">Agence de presse</label>
-              <input type="text" class="form-control from-control-lg" id="Agence" name="Agence_presse" placeholder="Entrez l'Agence de presse">
-            </div>
-            <div class="mb-3">
-              <label for="Entreprise">Entreprise de communication audiovisuelle</label>
-              <input type="text" class="form-control from-control-lg" id="Entreprise" name="Entreprise_communication" placeholder="Entrez l'entreprise">
-            </div>
-            <div class="mb-3 row">
-              <label for="Emission">Quelle est le type de l'Emission ?</label>
-              <div class="mt-2 col-xl-3 col-lg-3 col-3">
-                <label for="Emission">Chaîne</label>
-                <input type="radio" class="me-3" id="Emission" name="Emission">
+              <h1 class="h4">Renseignements Professionnels</h1>
+              <div class="mb-3 mt-3">
+                  <label for="Societe">Société éditrice</label>
+                  <input type="text" class="form-control from-control-lg" id="Societe" name="Société_éditrice" placeholder="Entrez la Société éditrice">
               </div>
-              <div class="mt-2 col-xl-2 col-lg-3 col-3">
-                <label for="Emissiom">Radio</label>
-              <input type="radio" id="Emission" name="Emission">
+              <div class="mb-3">
+                  <label for="Publication">Publication (papier ou numerique)</label>
+                  <select class="form-select" aria-label="Default select example" id="Publication">
+                      <option selected>Choisissez le type de Publication</option>
+                      <option value="1">PAPIER</option>
+                      <option value="2">NUMERIOUE</option>
+                  </select>
               </div>
-            </div>
-            <div class="mb-3">
-              <label for="Mobile">Service mobile</label>
-              <input type="text" class="form-control from-control-lg" id="Mobile" name="Service_Mobile" placeholder="Entrez le service">
-            </div>
-            <div class="mb-3">
-              <label for="T_Nuimerique">Tablette numérique</label>
-              <input type="text" class="form-control from-control-lg" id="T_Nuimerique" name="Tablette_Nuimerique" placeholder="Entre la Tablette">
-            </div>
-            <div class="mb-3">
-              <label for="Address">Adresse professionnelle</label>
-              <input type="text" class="form-control from-control-lg" id="Address" name="Adresse_professionnelle" placeholder="Entrez Adresse professionnelle">
-            </div>
-            <div class="mb-3">
-              <label for="Telephone_P">Téléphone professionnels</label>
-              <input type="tel" class="form-control from-control-lg" id="Telephone_P" name="Telephone_Professionnels" placeholder="Entrez le Telephone Professionnels">
-            </div>
-            <div class="mb-3 d-flex flex-wrap">
-              <label for="Autorisation">Autorisez-vous la Commission à mentionner votre adresse e-mail professionnelle et/ou professionnelle dans l'annuaire ?</label>
-              <div class="mx-3 mt-2">
-                <label for="Autorisation1">Oui</label>
-                <input type="checkbox" class="" id="Autorisation1" name="Autorisation">
+              <div class="mb-3">
+                  <label for="Agence">Agence de presse</label>
+                  <input type="text" class="form-control from-control-lg" id="Agence" name="Agence_presse" placeholder="Entrez l'Agence de presse">
               </div>
-              <div class="mx-3 mt-2">
-                <label for="Autorisation2">Non</label>
-                <input type="checkbox" class="" id="Autorisation2" name="Autorisation">
+              <div class="mb-3">
+                  <label for="Entreprise">Entreprise de communication audiovisuelle</label>
+                  <input type="text" class="form-control from-control-lg" id="Entreprise" name="Entreprise_communication" placeholder="Entrez l'entreprise">
               </div>
-            </div>
+              <div class="mb-3 row">
+                  <label for="Emission">Emission :</label>
+                  <div class="mt-2 col-xl-3 col-lg-3 col-3">
+                      <label for="Emission">Chaîne</label>
+                      <input type="radio" class="me-3" id="Emission" name="Emission">
+                  </div>
+                  <div class="mt-2 col-xl-2 col-lg-3 col-3">
+                      <label for="Emissiom">Radio</label>
+                      <input type="radio" id="Emission" name="Emission">
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="Mobile">Service mobile</label>
+                  <input type="text" class="form-control from-control-lg" id="Mobile" name="Service_Mobile" placeholder="Entrez le service">
+              </div>
+              <div class="mb-3">
+                  <label for="T_Nuimerique">Tablette numérique</label>
+                  <input type="text" class="form-control from-control-lg" id="T_Nuimerique" name="Tablette_Nuimerique" placeholder="Entre la Tablette">
+              </div>
+              <div class="mb-3">
+                  <label for="Address">Adresse professionnelle</label>
+                  <input type="text" class="form-control from-control-lg" id="Address" name="Adresse_professionnelle" placeholder="Entrez Adresse professionnelle">
+              </div>
+              <div class="mb-3">
+                  <label for="Telephone_P">Téléphone professionnels</label>
+                  <input type="tel" class="form-control from-control-lg" id="Telephone_P" name="Telephone_Professionnels" placeholder="Entrez le Telephone Professionnels">
+              </div>
+              <div class="mb-3 d-flex flex-wrap">
+                  <label for="Autorisation">Autorisez-vous la Commission à mentionner votre adresse e-mail personnelle et/ou professionnelle dans l'annuaire ?</label>
+                  <div class="mx-3 mt-2">
+                      <label for="Autorisation1">O</label>
+                      <input type="checkbox" class="" id="Autorisation1" name="Autorisation">
+                  </div>
+                  <div class="mx-3 mt-2">
+                      <label for="Autorisation2">N</label>
+                      <input type="checkbox" class="" id="Autorisation2" name="Autorisation">
+                  </div>
+              </div>
           </div>
         </div>
         <div class="col-12 d-flex justify-content-center mt-4">
